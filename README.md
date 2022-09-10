@@ -9,8 +9,10 @@
 <br/>
 - SPI values. The 4SPAIN provides the values of the SPI index. This could be of use for user that need to quantify the drought conditions. 
 <br/>
+
 - SPI spread. The spread of 4SPAIN gives an estimation of the uncertainties of the observed SPI index. 
 <br/>
+
 - SPI warning level. This map is designed to allow users to distinguish between high drought severity with high probability and low severity and low probability. That is, the colours indicate a combination of probability and severity as indicated in the table below: 
 <br/>
 <br/>
@@ -18,8 +20,11 @@
   <img src="https://github.com/MTAV26/4SPAIN/blob/main/drought_matrix_levels.png" width="450" title="hover text">
 </p>
 <br/>
+
 For example, yellow could reflect either a high probability of abnormally dry conditions or a low probability of a severe drought. This approach is based on the 
 guidelines for disaster management of the European Commission (EC 2010).
+
+
 - SPI probability of drought level. This map shows the full probability of having (at least) moderate drought, thus giving a more detailed illustration of the 4SPAIN uncertainty and could be useful for the most experienced users.
 
 
