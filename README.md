@@ -15,7 +15,7 @@
 <br/>
 <br/>
 <p align="center">
-  <img src="www/images/drought_matrix_levels.png" width="450" title="hover text">
+  <img src="4SPAIN/drought_matrix_levels.png" width="450" title="hover text">
 </p>
 <br/>
 For example, yellow could reflect either a high probability of abnormally dry conditions or a low probability of a severe drought. This approach is based on the 
