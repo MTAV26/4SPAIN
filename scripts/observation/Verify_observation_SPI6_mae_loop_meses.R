@@ -27,8 +27,8 @@ anni = 1981:2017
 mesi = rep(1:12, length(anni))
 mesi_start = which(mesi == 1)
 
-dir_drop = './SPAIN2017/data/'
-dir_out2 = './SPAIN2017/results/observation/mae/'
+dir_drop = './4SPAIN/data/'
+dir_out2 = './4SPAIN/results/observation/mae/'
 
 brk_cor <- seq(0, 1, 0.1)
 col_cor <- (colorRampPalette(rev(brewer.pal(11, "PiYG")))(10))
