@@ -4,50 +4,27 @@ gc()
 
 library(StatDA)
 
-source("C:/Users/Usuario/Dropbox/4DROP/script/Common/CorrMIO.R")
-source("C:/Users/Usuario/Dropbox/4DROP/script/Common/ColorBarM.R")
-source("C:/Users/Usuario/Dropbox/4DROP/script/Common/mioplot_global.R")
-source("C:/Users/Usuario/Dropbox/4DROP/script/Common/my_boxplot_stat.R")
-source("C:/Users/Usuario/Dropbox/4DROP/script/Common/my_boxplot.R")
+source("./4DROP/script/Common/CorrMIO.R")
+source("./4DROP/script/Common/ColorBarM.R")
+source("./4DROP/script/Common/mioplot_global.R")
+source("./4DROP/script/Common/my_boxplot_stat.R")
+source("./4DROP/script/Common/my_boxplot.R")
 
 ## fixed parameters
 #time_scale = c(1, 3, 6, 12)
 time_scale = c(6)
 
-# dir_drop = 'C:/Users/Usuario/OneDrive/Escritorio/4DROP/DATA/DROP/'
-# dir_out= 'C:/Users/Usuario/OneDrive/Escritorio/4DROP/RESULTADOS/validation_esp/JJA/'
-# dir_out2= 'C:/Users/Usuario/OneDrive/Escritorio/4DROP/RESULTADOS/validation_s5/JJA/'
-# dir_diff = 'C:/Users/Usuario/OneDrive/Escritorio/4DROP/RESULTADOS/validacion_diferencias/JJA/'
-
-#dir_drop = 'C:/Users/Usuario/Dropbox/4DROP/data/DROP/'
-#dir_out2= 'C:/Users/Usuario/Dropbox/4DROP/results/S5/DJF/' 
-#dir_out= 'C:/Users/Usuario/Dropbox/4DROP/results/4DROP/DJF/' 
-#dir_diff = 'C:/Users/Usuario/Dropbox/4DROP/results/diff/DJF' 
-
-# 
-# dir_drop = '/home/miguel/4DROP/DROP/'
-# dir_out= '/home/miguel/4DROP/results/cor/'
-
-# dir_drop = 'C:/Users/Usuario/Dropbox/4DROP/DROP/'
-# dir_out= 'C:/Users/Usuario/Dropbox/4DROP/cor/'
-
-
-dir_drop = 'C:/Users/Usuario/Dropbox/SPAIN2017/data/'
-dir_out = 'C:/Users/Usuario/Dropbox/SPAIN2017/results/observation/mae/'
-
-
-# est="JJA"
+dir_drop = './4SPAIN/data/'
+dir_out = './4SPAIN/results/observation/mae/'
 
 sc=6
 anni = 1981:2017
 mesi = rep(1:12, length(anni))
 mesi_8 = which(mesi == 08)
 
-
 load(file.path(dir_drop, "lon_ESP_1981_2017.RData"))
 load(file.path(dir_drop, "lat_ESP_1981_2017.RData"))
-lonGPCP = lon
-latGPCP = lat
+load(file.path(dir_drop, "inout.RData"))
 
 ni = length(lon)
 nj = length(lat)
