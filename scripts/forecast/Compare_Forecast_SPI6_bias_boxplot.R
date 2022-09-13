@@ -14,8 +14,8 @@ source("./4DROP/script/Common/my_boxplot.R")
 time_scale = c(6)
 
 
-dir_drop = 'C:/Users/Usuario/Dropbox/4SPAIN/data/'
-dir_out = 'C:/Users/Usuario/Dropbox/4SPAIN/results/bias/'
+dir_drop = './4SPAIN/data/'
+dir_out = './4SPAIN/results/bias/'
 
 sc=6
 anni = 1981:2017
