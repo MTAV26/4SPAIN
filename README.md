@@ -5,7 +5,7 @@
 4SPAIN are seasonal forecasts of meteorological drought from a probabilistic approach in the Iberian Peninsula for several months in advance. It has been built by applying an ensemble based streamflow prediction system (ESP, an ensemble based on the reordering of historical data) using the ERA5 data as initial conditions. 
 <br/>
 
-4SPAIN is available from https://github.com/MTAV26/4SPAIN/tree/main/data from January 1979 to the last month. Files were created in NetCDF format following the Climate metadata standards. 4SPAIN provides information in a variety of ways:
+4SPAIN is available from https://github.com/MTAV26/4SPAIN/tree/main/data from January 1979 to the last month. Files were created in NetCDF format following the Climate metadata standards. 4SPAIN provides information for three lead times, 2 months (2M), 3 months (3M) and for 4 months (4M) in various ways:
 <br/>
 - SPI values. The 4SPAIN provides the values of the SPI index. This could be of use for user that need to quantify the drought conditions. 
 <br/>
