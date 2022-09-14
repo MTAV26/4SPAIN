@@ -49,7 +49,7 @@ Full source code is available from the github repository https://github.com/MTAV
 https://matv.shinyapps.io/app_4spain/
 
 ### Citation
-add citation
+Torres-Vázquez, M.A., Halifa-Marín, A., Montávez, J.P & Turco, M. (2022). High resolution monitoring and probabilistic prediction of meteorological drought in a Mediterranean environment. "In preparation"
 
 ### References
 EC (European Commission). (2010). Risk assessment and mapping guidelines for disaster management. Commission Staff Working Paper, SEC (2010) 1626 final, Brussels.
