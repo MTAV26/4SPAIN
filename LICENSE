@@ -1,4 +1,9 @@
-                    GNU GENERAL PUBLIC LICENSE
+
+
+La aplicación de 4SPAIN (\textcolor{blue}{\url{https://matv.shinyapps.io/app_4spain/}}) se comparte bajo la licencia CC BY-NC 4.0. Los datos agregados de 4SPAIN para un tiempo de espera de 4, 3 y 2 meses (\textcolor{blue}{\url{https://github.com/MTAV26/4SPAIN/tree/main/data}}) se distribuyen bajo la licencia CC BY-NC 4.0, mientras que los scripts (\textcolor{blue}{\url{https://github.com/MTAV26/4SPAIN/tree/main/scripts}}) están disponibles bajo la Licencia Pública General GNU (GPL) v3.0.
+
+
+GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
