@@ -79,6 +79,9 @@ McKee, T.B., Doesken, N.J., Kleist, J., 1993. The relationship of drought freque
 Twedt, T.M., Schaake Jr., J.C., Peck, E.L., 1977. National Weather Service extended streamflow prediction [USA]. In: Proceedings Western Snow Conference. 
 <br/>
 
+### License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Meteorological drought forecast monitor for Spain</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://matv.shinyapps.io/app_4spain/" property="cc:attributionName" rel="cc:attributionURL">4SPAIN</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Reconocimiento-NoComercial 4.0 Internacional License</a>.
+
 <!---
 * <a href="http://cran.r-project.org/web/packages/shiny" target="_blank_">shiny</a>: Chang, W., Cheng J., Allaire, J.J., Xie, Y. & McPherson, J. (2013). shiny: Web Application Framework for R. R package version 0.11.1
 * <a href="http://cran.r-project.org/web/packages/shinydashboard" target="_blank_">shinydashboard</a>:Chang, W. (2015). shinydashboard: Create Dashboards with Shiny. R package version 0.5.1
