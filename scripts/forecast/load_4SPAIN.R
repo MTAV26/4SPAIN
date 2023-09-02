@@ -155,11 +155,11 @@ for (isc in 1:length(time_scale)) {
       brk_tl <- seq(1, 4, length.out = 4)
       ###################################################
 
-      spi_tl = array(data = NA, dim = c(length(lon), length(lat), dim(pred)[3]))
-      for (im in 1:dim(pred)[3]) {
-        for (i in 1:dim(pred)[1]) {
-          for (j in 1:dim(pred)[2]) {
-            aux = pred[i, j, im]
+      spi_tl = array(data = NA, dim = c(length(lon), length(lat), dim(spi6pred)[3]))
+      for (im in 1:dim(spi6pred)[3]) {
+        for (i in 1:dim(spi6pred)[1]) {
+          for (j in 1:dim(spi6pred)[2]) {
+            aux = spi6pred[i, j, im,]
             if (sum(!is.na(aux))!=0) {
               if (sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) > 0 &
                   sum(aux[!is.na(aux)] <= -1.3) / sum(!is.na(aux)) <= 0.25)  {
@@ -182,7 +182,7 @@ for (isc in 1:length(time_scale)) {
                 spi_tl[i, j, im] = 2 #yellow code
               } else  if (sum(aux[!is.na(aux)] > -0.8 &
                               aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux)) > 0 &
-                          sum(aux[!is.na(aux)] > -0 - 8 &
+                          sum(aux[!is.na(aux)] > -0.8 &
                               aux[!is.na(aux)] <= -0.5) / sum(!is.na(aux)) <= 0.5)  {
                 spi_tl[i, j, im] = 1 #green code
               } else  {
