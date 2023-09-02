@@ -55,15 +55,14 @@ These files cover the period from January 1979 to the last available month.
 The files were created in NetCDF format, following the climate metadata standards.
 <br/>
 
-
-### Acknowledgments
-A.H-M thanks his predoctoral contract FPU18/00824 to the Ministerio de Ciencia, Innovación y Universidades of Spain. M.T. acknowledges funding by the Spanish Ministry of Science, Innovation and Universities Ramón y Cajal Grant Reference RYC2019-027115-I. 
-
 ### Source Code
 Full source code is available from the github repository https://github.com/MTAV26/4SPAIN.
 
 ### Citation
 Torres-Vázquez, M. Á., Halifa-Marín, A., Montávez, J. P., & Turco, M. (2023). High resolution monitoring and probabilistic prediction of meteorological drought in a Mediterranean environment. Weather and Climate Extremes, 40, 100558. https://doi.org/10.1016/j.wace.2023.100558**
+
+### Acknowledgments
+A.H-M thanks his predoctoral contract FPU18/00824 to the Ministerio de Ciencia, Innovación y Universidades of Spain. M.T. acknowledges funding by the Spanish Ministry of Science, Innovation and Universities Ramón y Cajal Grant Reference RYC2019-027115-I. 
 
 ### References
 
